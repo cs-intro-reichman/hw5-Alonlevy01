@@ -45,7 +45,7 @@ public class MyString {
             char string2[] = str2.toCharArray();
             boolean check = false;
 
-            if (str1.isEmpty()) return false;
+            if (str1.isEmpty()) return true;
 
             for (int i = 0; i < str1.length(); i++) {
                 check = false;
