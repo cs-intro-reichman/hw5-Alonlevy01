@@ -1,7 +1,7 @@
 /**
  * A library of string functions.
  */
-public class MyString2 {
+public class MyString {
     public static void main(String args[]) {
         String hello = "hello";
         System.out.println(countChar(hello, 'h'));
