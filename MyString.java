@@ -43,7 +43,7 @@ public class MyString {
      */
     public static boolean subsetOf(String str1, String str2) {
             char string2[] = str2.toCharArray();
-            boolean check;
+            boolean check = false;
 
             for (int i = 0; i < str1.length(); i++) {
                 check = false;
@@ -58,7 +58,7 @@ public class MyString {
                     return false;
                 }
             }
-            return false;
+            return check;
     }
 
     /** Returns a string which is the same as the given string, with a space
