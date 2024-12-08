@@ -66,6 +66,7 @@ public class Scrabble {
 			letterScore = SCRABBLE_LETTER_VALUES[(int) word.charAt(i)-97];
 			sum = sum + letterScore;
 		}
+		sum = sum*(word.length());
 		return sum;
 	}
 
