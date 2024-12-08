@@ -70,7 +70,7 @@ public class Scrabble {
 
 		if (word.length() == HAND_SIZE) sum=sum+50;
 
-		if (word.contains("runi")); sum=sum+1000;
+		if (MyString.subsetOf("runi", word)); sum=sum+1000;
 		
 		return sum;
 	}
