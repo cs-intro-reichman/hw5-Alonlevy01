@@ -10,7 +10,7 @@ public class MyString {
         System.out.println(spacedString(hello));
         System.out.println(randomStringOfLetters(5));
         System.out.println(remove("committee", "meet"));
-        System.out.println(subsetOf("spy","space"));
+        System.out.println(subsetOf("runi","running"));
     }
 
     /**
