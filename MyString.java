@@ -58,7 +58,7 @@ public class MyString {
                     return false;
                 }
             }
-            return true;
+            return false;
     }
 
     /** Returns a string which is the same as the given string, with a space
