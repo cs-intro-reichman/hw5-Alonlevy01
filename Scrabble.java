@@ -67,6 +67,11 @@ public class Scrabble {
 			sum = sum + letterScore;
 		}
 		sum = sum*(word.length());
+
+		if (word.length() == HAND_SIZE) sum=sum+50;
+
+		if (word.contains("runi")); sum=sum+1000;
+		
 		return sum;
 	}
 
