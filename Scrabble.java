@@ -105,11 +105,12 @@ public class Scrabble {
 			String input = in.readString();
 			
 			if (!input.equals(".")) {
-				if (MyString.subsetOf(input,hand)) {
-					if (isWordInDictionary(input)) {
+				if (MyString.subsetOf(input,hand) && (isWordInDictionary(input))) {
 						score = score + wordScore(input);
 						hand = MyString.remove(hand, input);
-					}
+				}
+				else {
+					System.out.println("Invalid word. Try again.");
 				}
 			}
 			else break;
